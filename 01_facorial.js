@@ -5,17 +5,14 @@ recursion = (n) =>{
         return 1;
     }
 
-    let x = recursion(n-1)
-    return x*n;
+    let x = n*recursion(n-1)
+    return x;
 }
 
 return recursion(n);
 
 
 }
-
-
-
 
 let ans = factorial(5);
 console.log(ans)
