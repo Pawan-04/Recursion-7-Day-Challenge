@@ -1,0 +1,1 @@
+fib(last,last+first,index+1
